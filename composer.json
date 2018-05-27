@@ -1,0 +1,35 @@
+{
+  "name": "zwei/dependency-injection",
+  "type": "library",
+  "description": "The Zwei dependency-injection package.",
+  "keywords": ["dependency injection"],
+  "license": "BSD-3",
+  "homepage": "https://github.com/qq1060656096/dependency-injection",
+  "support": {
+    "issues": "https://github.com/qq1060656096/dependency-injection/issues",
+    "source": "https://github.com/qq1060656096/dependency-injection"
+  },
+  "authors": [
+    {
+      "name": "Zhao Wei Jie",
+      "email": "1060656096@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4":{
+      "Zwei\\DependencyInjection\\":"src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zwei\\DependencyInjection\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": ">=5.4",
+    "psr/container": "1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.6"
+  }
+}
